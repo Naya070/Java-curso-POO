@@ -1,4 +1,5 @@
 public class Patient {
+    //Atributos
     int id;
     private String name;
     private String email;
@@ -12,7 +13,6 @@ public class Patient {
     Patient(String name, String email){
         this.name = name;
         this.email = email;
-
     }
 
     // 54.5
@@ -96,5 +96,4 @@ public class Patient {
     public void setBlood(String blood) {
         this.blood = blood;
     }
-
 }
